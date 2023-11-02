@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "alwaysStrict": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false,
+    "strictFunctionTypes": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "artwork/*": [ "artwork/*" ],
+      "assets/*": [ "../../assets/*" ],
+      "Cell/*": [ "Cell/*" ],
+      "City/*": [ "City/*" ],
+      "Grid/*": [ "Grid/*" ],
+      "common/*": [ "../common/*" ],
+      "constants/*": [ "../common/constants/*" ],
+      "config/*": [ "config/*" ],
+      "data/*": [ "../../data/*" ],
+      "events/*": [ "events/*" ],
+      "palette/*": [ "palette/*" ],
+      "resources/*": [ "resources/*" ],
+      "sc2/*": [ "sc2/*" ],
+      "sim/*": [ "sim/*" ],
+      "startup/*": [ "startup/*" ],
+      "tiles/*": [ "tiles/*" ],
+      "ui/*": [ "ui/*" ],
+      "utils/*": [ "utils/*" ],
+      "Load/*": [ "Load/*" ],
+      "World/*": [ "World/*" ]
+    },
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/phaser/types"
+    ]
+  },
+  "include": [
+    "src/common/index.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
